@@ -35,7 +35,7 @@ pipeline {
 		emailext(
 			subject: "Job Completed",
 			body: "Jenkins pipeline job for maven build job completed",
-			to: "psgreddy952gmail.com"
+			to: "psgreddy95@gmail.com"
 		)
 		}
 	}
